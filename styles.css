@@ -1,0 +1,57 @@
+/* styles.css */
+/* Dayerlin Lombana c.i: 29.836.247 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:violet;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:lightpink;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
